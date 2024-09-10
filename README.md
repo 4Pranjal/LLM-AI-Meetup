@@ -21,8 +21,69 @@ This repository contains multiple Streamlit applications powered by Google Gemin
 To run these applications, follow these steps:
 
 ### 1. Clone the repository
-
  
 git clone https://github.com/4Pranjal/LLM-AI-Meetup
- 
+
+ 2. Set up a Python virtual environment (optional but recommended)
+bash
+Copy code
+python3 -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+3. Install dependencies
+Install the required Python packages:
+
+bash
+Copy code
+pip install -r requirements.txt
+4. Set up environment variables
+Create a .env file in the root directory of your project. Inside this file, set your Google API key:
+
+bash
+Copy code
+GOOGLE_API_KEY=your_google_api_key_here
+You can get your API key from the Google Cloud Console.
+
+5. Run the applications
+You can run each application by navigating to the project folder and executing the following command:
+
+For Q&A Chatbot (without history saving):
+bash
+Copy code
+streamlit run qachat1.py
+For Q&A Chatbot (with history saving):
+bash
+Copy code
+streamlit run qachat2.py
+For PDF Chatbot:
+bash
+Copy code
+streamlit run chatpdf.py
+or
+
+bash
+Copy code
+streamlit run chatpdf2.py
+For Image Processing Demo:
+bash
+Copy code
+streamlit run vision.py
+
+Requirements
+
+These applications depend on several libraries, which are listed in the requirements.txt file, including:
+
+streamlit
+google-generativeai
+python-dotenv
+langchain
+PyPDF2
+faiss-cpu
+chromadb
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+css
+Copy code
+
+Now you can copy the entire section properly from here!
 
