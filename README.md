@@ -29,8 +29,10 @@ python3 -m venv venv
 On Windows use `venv\Scripts\activate`
 
 ## 3. Install dependencies
-Install the required Python packages:
-pip install -r requirements.txt
+Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## 4. Set up environment variables
 Create a .env file in the root directory of your project.
@@ -43,26 +45,34 @@ You can get your API key from the Google Cloud Console.
 You can run each application by navigating to the project folder and executing the following command:
 
 For Q&A Chatbot (without history saving):
-streamlit run qachat1.py
+   ```bash
+   streamlit run qachat1.py
+   ```
 For Q&A Chatbot (with history saving):
-
+   ```bash
+   streamlit run qachat2.py
+   ```
 streamlit run qachat2.py
 For PDF Chatbot:
- 
-streamlit run chatpdf.py
-streamlit run chatpdf2.py
+   ```bash
+   streamlit run chatpdf.py
+   ```
+   ```bash
+   streamlit run qachat2.py
+   ```
 
 For Image Processing Demo:
+   ```bash
+   streamlit run vision.py
+   ```
 streamlit run vision.py
 
-Requirements
-These applications depend on several libraries, which are listed in the requirements.txt file, including:
+## Contributors
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+- [Pranjal Jain](https://github.com/4Pranjal)
 
-css
-Copy code
+## License
 
-Now you can copy the entire section properly from here!
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
