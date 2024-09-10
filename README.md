@@ -23,6 +23,6 @@ To run these applications, follow these steps:
 ### 1. Clone the repository
 
  
-git clone https://github.com/yourusername/gemini-chatbot.git
-cd gemini-chatbot
+git clone https://github.com/4Pranjal/LLM-AI-Meetup
+ 
 
