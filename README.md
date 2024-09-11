@@ -24,9 +24,15 @@ To run these applications, follow these steps:
  
 git clone https://github.com/4Pranjal/LLM-AI-Meetup
 
-## 2. Set up a Python virtual environment (optional but recommended)
-python3 -m venv venv
-On Windows use `venv\Scripts\activate`
+## 2. Set up a Python virtual environment 
+   ```bash
+   python3 -m venv venv
+   ```
+or you can use conda to create environment.
+On Windows use
+   ```bash
+venv\Scripts\activate
+   ```
 
 ## 3. Install dependencies
 Install the required packages:
