@@ -1,4 +1,4 @@
-# Gemini-Powered Chatbot Application
+# Gemini-Powered RAG based Chatbot Application
 
 This repository contains multiple Streamlit applications powered by Google Gemini models for different use cases such as PDF-based Q&A and image processing. These apps leverage Google Generative AI and Langchain for language models and embedding generation.
 
@@ -7,6 +7,8 @@ This repository contains multiple Streamlit applications powered by Google Gemin
 - **Q&A Chatbot**: Ask questions and get responses from Google Gemini models, with or without chat history saving.
 - **PDF Chatbot**: Upload PDF files and ask questions based on the content of the PDF.
 - **Image Processing**: Use the Gemini model to process images and get descriptions.
+- **Web scrapping**: Use the Gemini Gemma model to extract the information from the websites & document.
+
 
 ## Project Structure
 
